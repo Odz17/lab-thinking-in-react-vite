@@ -28,7 +28,7 @@ const SearchBar = ({ onSearch, onStockChange }) => {
           checked={inStockOnly}
           onChange={handleCheckboxChange}
         />{" "}
-        Only show products in stock
+        Show products in stock!
       </label>
     </div>
   );
